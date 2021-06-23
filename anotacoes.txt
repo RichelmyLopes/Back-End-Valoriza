@@ -1,0 +1,26 @@
+/**
+ * GET => BUSCAR INFORMAÇOES
+ * POST => INSERIR OU CRIAR INFORMAÇAO
+ * PUT => ALTERAR(MANIPULAR) ALGUMA INFORMAÇAO
+ * DELETE => REMOVER ALGUM DADO
+ * PATCH => ALTERAR INFORMAÇAO ESPECIFICA(alterar somente algo de algum usuario)
+ */
+
+/**
+ * TIPOS DE PARAMETROS
+ * Routes params => http://localhost:3000/produtos/783475834454
+ * Query Params => http://localhost:3000/produtos?name=teclado&descriiption=tecladobom&
+ * 
+ * Body Params => {
+ *  "name" : "teclado",
+ *  "description": "teclado bom"
+ * }
+ */
+ "usar migrations com cli --- documentacao typeorm"
+
+fluxo :
+ criar migration,
+ depois entitiy,
+ depois repositories,
+ depois service,
+ depois controller,
