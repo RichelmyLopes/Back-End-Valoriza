@@ -17,10 +17,12 @@ class Compliments {
 
   @JoinColumn({name: "user_receiver"})
   @ManyToOne(() => User)
+  userReceiver: User;
 
-  userSender: User;
+
   @JoinColumn({name: "user_sender"})
   @ManyToOne(() => User)
+  userSender: User;
 
   @Column()
   tag_id: string;
